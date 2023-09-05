@@ -44,6 +44,7 @@
 		501ECE932AA7930B00E89563 /* TinyWinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyWinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501ECE972AA7930B00E89563 /* TinyWinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyWinsUITests.swift; sourceTree = "<group>"; };
 		501ECE992AA7930B00E89563 /* TinyWinsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyWinsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		501ECEA72AA79C4200E89563 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		501ECE702AA7930900E89563 = {
 			isa = PBXGroup;
 			children = (
+				501ECEA72AA79C4200E89563 /* README.md */,
 				501ECE7B2AA7930900E89563 /* TinyWins */,
 				501ECE8C2AA7930B00E89563 /* TinyWinsTests */,
 				501ECE962AA7930B00E89563 /* TinyWinsUITests */,
@@ -94,6 +96,7 @@
 		501ECE7B2AA7930900E89563 /* TinyWins */ = {
 			isa = PBXGroup;
 			children = (
+				501ECEA62AA7989000E89563 /* Views */,
 				501ECE7C2AA7930900E89563 /* TinyWinsApp.swift */,
 				501ECE7E2AA7930900E89563 /* ContentView.swift */,
 				501ECE802AA7930B00E89563 /* Assets.xcassets */,
@@ -125,6 +128,13 @@
 				501ECE992AA7930B00E89563 /* TinyWinsUITestsLaunchTests.swift */,
 			);
 			path = TinyWinsUITests;
+			sourceTree = "<group>";
+		};
+		501ECEA62AA7989000E89563 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
