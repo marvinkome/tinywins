@@ -14,6 +14,8 @@
 		501ECE8E2AA7930B00E89563 /* TinyWinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501ECE8D2AA7930B00E89563 /* TinyWinsTests.swift */; };
 		501ECE982AA7930B00E89563 /* TinyWinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501ECE972AA7930B00E89563 /* TinyWinsUITests.swift */; };
 		501ECE9A2AA7930B00E89563 /* TinyWinsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501ECE992AA7930B00E89563 /* TinyWinsUITestsLaunchTests.swift */; };
+		501ECEA92AA79DDD00E89563 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501ECEA82AA79DDD00E89563 /* Home.swift */; };
+		501ECEB42AA7D33000E89563 /* ItemStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501ECEB32AA7D33000E89563 /* ItemStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		501ECE972AA7930B00E89563 /* TinyWinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyWinsUITests.swift; sourceTree = "<group>"; };
 		501ECE992AA7930B00E89563 /* TinyWinsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyWinsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		501ECEA72AA79C4200E89563 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		501ECEA82AA79DDD00E89563 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		501ECEB32AA7D33000E89563 /* ItemStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 		501ECEA62AA7989000E89563 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				501ECEA82AA79DDD00E89563 /* Home.swift */,
+				501ECEB32AA7D33000E89563 /* ItemStepper.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				501ECE7F2AA7930900E89563 /* ContentView.swift in Sources */,
+				501ECEA92AA79DDD00E89563 /* Home.swift in Sources */,
+				501ECEB42AA7D33000E89563 /* ItemStepper.swift in Sources */,
 				501ECE7D2AA7930900E89563 /* TinyWinsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
